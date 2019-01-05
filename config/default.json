@@ -1,0 +1,54 @@
+{
+"btc": {
+        "protocol": "http",
+        "path": "/",
+        "port": 8332,
+        "host":"192.168.1.6",
+        "username": "bitcoinrpc",
+        "password": "123456"
+    },
+"ltc": {
+        "protocol": "http",
+        "path": "/",
+        "port": 9332,
+        "host": "18.194.83.52",
+        "username": "amir",
+        "password": "amir@litecoin"
+      },
+"bch": {
+        "protocol": "http",
+        "path": "/",
+        "port": 8332,
+        "host": "18.184.253.112",
+        "username": "amir",
+        "password": "amir@bitcoincash"
+      },
+"usdt":{
+        "protocol": "http",
+        "path": "",
+        "port": 18222,
+        "host": "206.189.112.9",
+        "wsPort":"8546",
+        "username": "bit_user",
+        "password": "a4213460fee4faa0ee11aabf8e5ea68e1c723a0b99e63212551579f21e3b02fc"
+
+      },
+"eth":{
+        "protocol": "http",
+        "path": "/",
+        "port": 8545,
+        "host": "192.168.1.16",
+        "username": "",
+        "password": ""
+
+    },
+"xrp": {
+        "protocol": "wss",
+        "path": "/",
+        "port": 51233,
+        "host": "s.altnet.rippletest.net",
+        "username": "",
+        "password": "",
+        "uri": "wss://s.altnet.rippletest.net:51233"
+      }
+}
